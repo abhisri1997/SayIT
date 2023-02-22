@@ -1,0 +1,17 @@
+{
+  "name": "sayit",
+  "version": "0.0.1",
+  "description": "Chat App created using Socket.io",
+  "main": "./server/app.js",
+  "scripts": {
+    "start": "node ./server/app.js",
+    "dev": "nodemon ./server/app.js"
+  },
+  "author": "Abhinav Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "socket.io": "^4.6.0"
+  }
+}
